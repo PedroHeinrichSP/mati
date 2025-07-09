@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sùil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            background-image: url('intuor.png');
+            background-position: center center;
+            background-color: rgb(10, 5, 5);
+            transform-origin: center center;
+            filter: brightness(0.7) contrast(1.2);
+            animation: eyePulse 5s ease-in-out infinite;
+        }
+
+        @keyframes eyePulse {
+            0%, 100% {
+                filter: brightness(0.7) contrast(1.2) scale(1);
+                transform: scale(1);
+            }
+            50% {
+                filter: brightness(0.8) contrast(1.3) scale(1.02);
+                transform: scale(1.1);
+            }
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50vh;
+            left: -50vw;
+            width: 200vw;
+            height: 200vh;
+            background: radial-gradient(circle at center, transparent 1%, rgba(0, 0, 0, 0.80) 30%, rgba(0, 0, 0, 0.95) 60%, rgba(0, 0, 0, 0.9) 100%);
+            pointer-events: none;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div>
+                                                    <div>
+                                                        <div>
+                                                            <div>
+                                                                <div>
+                                                                    <div>
+                                                                        <div>
+                                                                            <div>
+                                                                                <div>
+                                                                                    <div>
+                                                                                        <div>
+                                                                                            <div>
+                                                                                                <div>
+                                                                                                    <!-- Άνοιξε τα μάτια σου -->
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
